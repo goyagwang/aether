@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>æther</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./js/hamburger.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="header_inner clearfix">
+            <h1 class="logo"><a href="./index.html"><img src="./images/logo.png" alt="에테르 로고"></a></h1>
+            <ul class="nav clearfix">
+                <li><a href="#records">records</a></li>
+                <li><a href="#about_us">about us</a></li>
+                <li><a href="#community">community</a></li>
+                <li>
+                    <form action="#" method="post">
+                        <label><input type="search" class="search"></label>
+                    </form>
+                </li>
+                <li><a href="#">login</a></li>
+                <li><a href="#">cart</a></li>
+            </ul>
+
+            <!--여기부터 필요구조 시작-->
+
+            <div class="slide-open" id="slide-open">
+                <span class="burgur" id="burgur">
+                    <span class="top-line"></span>
+                    <span class="bot-line"></span>
+                </span>
+            </div>
+            <!--slide-open-->
+            <div class="slide" id="slide">
+                <ul>
+                    <li><a href="#records">Records</a></li>
+                    <li><a href="#about_us">About us</a></li>
+                    <li><a href="#community">Community</a></li>
+                </ul>
+            </div>
+            <!--slide-->
+            <!--필요구조 끝-->
+        </div>
+    </div>
+
+    <div id="main_banner">
+        <video src="./images/main_banner.mp4" autoplay muted loop playsinline></video>
+    </div>
+
+    <div id="records">
+        <h1 class="title">Records</h1>
+        <h3 class="sub_title">
+            음반은 아티스트와 리스너를 연결시키는 시각적 매개체입니다.<br>
+            사랑하는 음악을 눈에 보이는 형상으로 간직하세요.
+        </h3>
+        <!-- Swiper -->
+        <div class="swiper records_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="./images/cover1.jpg" alt="앨범 커버 이미지"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/cover2.jpg" alt="앨범 커버 이미지"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/cover3.jpg" alt="앨범 커버 이미지"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/cover4.jpg" alt="앨범 커버 이미지"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/cover5.jpg" alt="앨범 커버 이미지"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/cover6.jpg" alt="앨범 커버 이미지"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/cover7.jpg" alt="앨범 커버 이미지"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/cover8.jpg" alt="앨범 커버 이미지"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/cover9.jpg" alt="앨범 커버 이미지"></a></div>
+            </div>
+        </div>
+        <div class="records_inner clearfix">
+            <div class="records_left">
+                <h1 class="title">Records of Month</h1>
+                <h3>이달의 음반</h3>
+                <a href="#" class="more">view more</a>
+            </div>
+            <ul class="records_right">
+                <li><a href="#">
+                        <img src="./images/month1.jpg" alt="이달의 음반 이미지">
+                        <p>Nü Religion: Hyena (Intro)<br>
+                            <span class="artist">THEY.</span>
+                        </p>
+                    </a></li>
+                <li><a href="#">
+                        <img src="./images/month2.jpg" alt="이달의 음반 이미지">
+                        <p>呼吸(Kokyuu)<br>
+                            <span class="artist">Lily Chou-Chou</span>
+                        </p>
+                    </a></li>
+                <li><a href="#">
+                        <img src="./images/month3.jpg" alt="이달의 음반 이미지">
+                        <p>Soon Come…<br>
+                            <span class="artist">Asheru & Blue Black</span>
+                        </p>
+                    </a></li>
+                <li><a href="#">
+                        <img src="./images/month4.jpg" alt="이달의 음반 이미지">
+                        <p>CLIFF TOP<br>
+                            <span class="artist">YOKOYURE</span>
+                        </p>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="about_us">
+        <h1 class="title">æther</h1>
+        <h3 class="sub_title">
+            에테르(aether)는 빛의 파동설의 부산물로, 파동이 진행하기 위해서 필수적으로 있어야 한다고 믿어졌던 매질입니다.<br>
+            이와이 슌지 감독의 영화 &lt;릴리슈슈의 모든 것&gt;에서 에테르는 감성의 촉매입니다.<br>
+            아티스트에게는 에테르가 있고, 리스너는 에테르로 인해 아티스트와의 일체감을 느끼게 됩니다.
+        </h3>
+        <ul class="img_box">
+            <li>
+                <img src="./images/aether1.jpg" alt="에테르 이미지1">
+                <p>소리의 파동이 진행하기 위해 필요한 공기.</p>
+            </li>
+            <li>
+                <img src="./images/aether2.jpg" alt="에테르 이미지2">
+                <p>음악은 소리의 집합이고 소리의 매질은 공기이며, 공기는 우리의 들숨날숨이다.</p>
+            </li>
+            <li>
+                <img src="./images/aether3.jpg" alt="에테르 이미지3">
+                <p>감정을 말소시키거나 증폭시키거나.</p>
+            </li>
+            <li>
+                <img src="./images/aether4.jpg" alt="에테르 이미지4">
+                <p>역동적인 전율을 느끼게 하는 힘이 음악에 있다.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="store">
+        <div class="store_inner">
+            <h1>
+                <span>æther</span> is catalyst for emotions,<br>
+                and breathes with us.
+            </h1>
+            <ul>
+                <li>
+                    <img src="./images/store2.jpg" alt="매장 이미지2">
+                    <p>우리가 숨을 쉬려면 산소가 필요하듯, 삶의 즐거움에 있어 음악은 필수적인 예술입니다.</p>
+                </li>
+                <li>
+                    <img src="./images/store1.jpg" alt="매장 이미지1">
+                    <p>에테르와 함께 잔잔히, 또는 격렬하게 당신 곁에 존재하는 음악에 심취해 보세요.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="community">
+        <div class="community_inner">
+            <ul>
+                <li class="community_content">
+                    <h1><a href="#">Community</a></h1>
+                    <table>
+                        <tr>
+                            <th>date</th>
+                            <th>title</th>
+                        </tr>
+                        <tr>
+                            <td>2023-01-01</td>
+                            <td><a href="#none">신년 이벤트 안내 </a></td>
+                        </tr>
+                        <tr>
+                            <td>2022-12-01</td>
+                            <td><a href="#none">12월 신품 음반 업데이트 및 연말 세일 안내</a></td>
+                        </tr>
+                        <tr>
+                            <td>2022-11-09</td>
+                            <td><a href="#none">서울레코드페어 참여로 인한 매장 휴무 안내</a></td>
+                        </tr>
+                        <tr>
+                            <td>2022-11-01</td>
+                            <td><a href="#none">11월 신품 음반 업데이트 안내</a></td>
+                        </tr>
+                        <tr>
+                            <td>2022-10-01</td>
+                            <td><a href="#none">10월 신품 음반 업데이트 안내</a></td>
+                        </tr>
+                        <tr>
+                            <td>2022-09-10</td>
+                            <td><a href="#none">추석 연휴 배송 일정 안내</a></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.6619446762797!2d129.1347629!3d35.165050799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356892b8684bc9e5%3A0xe87636f08ef51084!2z67aA7IKw6rSR7Jet7IucIO2VtOyatOuMgOq1rCBBUEVD66GcIDU4!5e0!3m2!1sko!2skr!4v1668784900512!5m2!1sko!2skr"
+                        width="100%" height="100%" style="border:1px solid #27333e;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="footer_inner clearfix">
+            <h1 class="footer_logo"><a href="#"><img src="./images/logo.png" alt="에테르 푸터 로고"></a></h1>
+            <div class="footer_left">
+                <ul class="clearfix">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일 무단수집</a></li>
+                    <li><a href="#">배송정책</a></li>
+                </ul>
+                <p>
+                    에테르 · aether@aether.com · 부산광역시 해운대구 APEC로 58<br>
+                    사업자등록번호 10-10-221118 · 통신판매업신고 2022-부산해운대-1118호<br>
+                    ⓒ copyright 2022 aether all rights reserved.
+                </p>
+            </div>
+            <ul class="footer_right">
+                <li><a href="#"><img src="./images/instagram.png" alt="인스타그램"></a></li>
+                <li><a href="#"><img src="./images/youtube.png" alt="유튜브"></a></li>
+                <li><a href="#"><img src="./images/twitter.png" alt="트위터"></a></li>
+                <li><a href="#"><img src="./images/share.png" alt="공유하기"></a></li>
+            </ul>
+        </div>
+    </div>
+    <a href="#main_banner" class="top_btn">TOP</a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".records_swiper", {
+            slidesPerView: 5,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            /*가장 작게 설정한 breakpoint크기 이하일때 적용됨*/
+            slidesPerView: 2,
+            centeredSlides: true,
+            spaceBetween: 20,
+            breakpoints: {
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },//640 ~ 1099 사이일때 보여지는 모습
+                1100: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },//1100~1299 사이일때 보여지는 모습
+                1300: {
+                    slidesPerView: 5,
+                    spaceBetween: 30,
+                },//1300이상일때 보여지는 모습
+            },
+        });//지우면 안되요!
+    </script>
+
+    <script>
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 500);//움직이는 시간 조정
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
