@@ -694,4 +694,18 @@ tr td:nth-child(2) {
     #store {
         background: none;
     }
+
+    .footer_left li {
+        display: block;
+    }
+}
+
+@media (max-width:500px) {
+    .img_box li p {
+        padding-left: 2%;
+    }
+
+    .store_inner li p {
+        padding-left: 2%;
+    }
 }
