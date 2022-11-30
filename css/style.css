@@ -210,7 +210,7 @@ body {
 }
 
 #records {
-    padding: 10% 0;
+    padding: 100px 0;
     box-sizing: border-box;
     text-align: center;
 }
@@ -230,7 +230,7 @@ body {
     font-size: 14px;
     font-weight: normal;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .records_inner {
@@ -282,7 +282,7 @@ body {
 
 .records_right p {
     text-align: left;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .artist {
@@ -293,7 +293,7 @@ body {
     max-width: 1320px;
     box-sizing: border-box;
     margin: 0 auto;
-    padding-bottom: 5%;
+    padding-bottom: 100px;
 }
 
 #about_us>h1 {
@@ -335,7 +335,7 @@ body {
 }
 
 .img_box li p {
-    margin: 1% 0 5%;
+    margin: 1% 0 10%
 }
 
 #about_us li img {
@@ -504,11 +504,11 @@ tr td:nth-child(2) {
 }
 
 .footer_left ul {
+    display: flex;
     margin: 30px 0;
 }
 
 .footer_left ul li {
-    float: left;
     padding-right: 30px;
 }
 
@@ -598,7 +598,7 @@ tr td:nth-child(2) {
     }
 
     .records_right li {
-        max-width: 48%;
+        max-width: 45%;
     }
 
     .img_box {
@@ -702,10 +702,32 @@ tr td:nth-child(2) {
 
 @media (max-width:500px) {
     .img_box li p {
-        padding-left: 2%;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width:432px) {
+    .footer_left ul {
+        display: block;
+    }
+}
+
+@media (max-width:638px) {
+    .footer_left p {
+        padding-right: 15px;
     }
 
+    .sub_title {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width:498px) {
     .store_inner li p {
-        padding-left: 2%;
+        padding: 0 15px;
+    }
+
+    .img_box li p {
+        padding: 0 15px;
     }
 }
