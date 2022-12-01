@@ -508,10 +508,8 @@ tr td:nth-child(2) {
     max-width: 1320px;
     margin: 0 auto;
     padding: 50px 0;
-}
-
-.footer_left {
-    float: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer_left ul {
@@ -524,11 +522,10 @@ tr td:nth-child(2) {
 }
 
 .footer_right {
-    float: right;
+    display: flex;
 }
 
 .footer_right li {
-    float: left;
     margin-right: 15px;
 }
 
@@ -559,7 +556,6 @@ tr td:nth-child(2) {
 }
 
 @media (max-width:1070px) {
-
     .records_left {
         float: none;
         text-align: center;
@@ -590,7 +586,6 @@ tr td:nth-child(2) {
 }
 
 @media (max-width:1018px) {
-
     #community ul {
         display: flex;
         justify-content: center;
@@ -602,9 +597,11 @@ tr td:nth-child(2) {
 }
 
 @media (max-width:600px) {
+    .footer_inner {
+        display: block;
+    }
 
     .footer_right {
-        float: left;
         margin-top: 30px;
     }
 
