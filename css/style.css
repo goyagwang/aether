@@ -210,7 +210,7 @@ body {
 }
 
 #records {
-    padding: 100px 0;
+    padding-top: 100px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -293,7 +293,7 @@ body {
     max-width: 1320px;
     box-sizing: border-box;
     margin: 0 auto;
-    padding-bottom: 10%;
+    padding: 100px 0;
 }
 
 #about_us>h1 {
@@ -356,8 +356,8 @@ body {
 
 /*store*/
 #store {
-    padding: 10% 0;
-    background-color: #dfe5eb;
+    padding: 100px 0;
+    background: #dfe5eb;
 }
 
 .store_inner {
@@ -437,7 +437,7 @@ body {
 .community_inner {
     max-width: 1320px;
     margin: 0 auto;
-    padding: 15% 0;
+    padding: 100px 0;
 }
 
 #community ul {
@@ -527,6 +527,14 @@ tr td:nth-child(2) {
 
 .footer_right li {
     margin-right: 15px;
+}
+
+.footer_text {
+    display: block;
+}
+
+.footer_hidden {
+    display: none;
 }
 
 .top_btn {
@@ -720,12 +728,33 @@ tr td:nth-child(2) {
     .footer_left ul {
         display: block;
     }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_hidden {
+        display: block;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    .footer_right {
+        justify-content: center;
+    }
+
+    .footer_inner {
+        margin: none;
+    }
+
+    .footer_left ul li {
+        padding-right: 0;
+    }
 }
 
 @media (max-width:638px) {
-    .footer_left p {
-        padding-right: 15px;
-    }
 
     .sub_title {
         padding: 0 15px;
