@@ -752,6 +752,10 @@ tr td:nth-child(2) {
     .footer_left ul li {
         padding-right: 0;
     }
+
+    .footer_inner {
+        margin-left: 0;
+    }
 }
 
 @media (max-width:638px) {
