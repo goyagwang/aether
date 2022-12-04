@@ -85,6 +85,7 @@ body {
     padding: 5px 0;
     background: url(../images/search.png) no-repeat center left;
     padding-left: 25px;
+    color: #27333e;
 }
 
 /*필요스타일시작*/
@@ -165,9 +166,6 @@ body {
     transition: right .3s;
     background-color: #27333e;
     color: #dfe5eb;
-    font-family: 'echelon';
-    font-size: 40px;
-    line-height: 50px;
 }
 
 .slide-title {
@@ -189,6 +187,24 @@ body {
     padding: 10px;
     text-align: center;
     letter-spacing: 0;
+}
+
+.slide1 {
+    font-family: 'echelon';
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.search2 {
+    width: 150px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #dfe5eb;
+    padding: 5px 0;
+    background: url(../images/search2.png) no-repeat center left;
+    padding-left: 25px;
+    color: #dfe5eb;
 }
 
 /*필요스타일끝*/
