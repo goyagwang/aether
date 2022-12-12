@@ -184,7 +184,7 @@ body {
 .slide ul li {
     display: inline-block;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
     letter-spacing: 0;
 }
@@ -632,6 +632,10 @@ tr td:nth-child(2) {
 }
 
 @media (max-width:599px) {
+    .slide {
+        width: 70%;
+    }
+
     .records_left {
         float: none;
         text-align: center;
